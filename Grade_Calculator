@@ -1,0 +1,37 @@
+//Simple program using if-else-if statements.Grade Calculator
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    system("cls");
+    int percentage ;
+
+    cout<<"\n\n\n\n\n\n";
+
+    cout<<"\n\tEnter your Percentage :\t";
+    cin>>percentage;
+
+    if(percentage>=45 && percentage<65)
+    {
+        cout<<"\n\n\t\tStatus :  Pass";
+    }
+    else if(percentage>=65 && percentage<85)
+    {
+        cout<<"\n\n\tStatus :  Pass with Second class";
+    }
+    else if(percentage>=85)
+    {
+        cout<<"\n\n\tStatus : Pass with first class";
+    }
+    else
+    {
+        cout<<"\n\n\tStatus : Jake Padhai Kar Na Mc !!";
+    }
+    
+    cout<<"\n\n\n\n";
+
+    return 0;
+}
+// Code by - Mayborg
